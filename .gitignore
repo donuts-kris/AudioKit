@@ -18,7 +18,6 @@ Playgrounds/iOS/
 # Cocoapods
 Pods/
 Podfile.lock
-*.podspec*
 
 # osx noise
 .DS_Store
