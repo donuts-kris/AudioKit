@@ -13,7 +13,7 @@
     "documentation_url": "http://audiokit.io/docs/",
     "static_framework": true,
     "source": {
-        "git": "https://github.com/donuts-kris/AudioKit.git"
+        "http": "https://files.audiokit.io/releases/v4.4.0/AudioKit.framework.zip"
     },
     "summary": "Open-source audio synthesis, processing, & analysis platform.",
     "platforms": {
