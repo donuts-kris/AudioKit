@@ -12,7 +12,9 @@
     "social_media_url": "http://twitter.com/AudioKitMan",
     "documentation_url": "http://audiokit.io/docs/",
     "static_framework": true,
-    "source": { :git => 'https://github.com/donuts-kris/AudioKit.git' }
+    "source": {
+        "git": "https://github.com/donuts-kris/AudioKit.git"
+    }
     "summary": "Open-source audio synthesis, processing, & analysis platform.",
     "platforms": {
         "osx": "10.11",
