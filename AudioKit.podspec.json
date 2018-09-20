@@ -14,7 +14,7 @@
     "static_framework": true,
     "source": {
         "git": "https://github.com/donuts-kris/AudioKit.git"
-    }
+    },
     "summary": "Open-source audio synthesis, processing, & analysis platform.",
     "platforms": {
         "osx": "10.11",
