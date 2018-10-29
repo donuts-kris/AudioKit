@@ -33,7 +33,7 @@
     },
     "subspecs" : [
       {
-        "name": "Core",
+        "name": "Kuy",
         "ios": {
             "source_files": [
                 "iOS/AudioKit.framework/Headers/*.h"
