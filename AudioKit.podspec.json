@@ -17,7 +17,7 @@
     },
     "summary": "Open-source audio synthesis, processing, & analysis platform.",
     "platforms": {
-        "ios": "9.0",
+        "ios": "9.0"
     },
     "swift_version": "4.1",
     "cocoapods_version": ">= 1.4.0",
