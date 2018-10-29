@@ -17,9 +17,7 @@
     },
     "summary": "Open-source audio synthesis, processing, & analysis platform.",
     "platforms": {
-        "osx": "10.11",
         "ios": "9.0",
-        "tvos": "9.0"
     },
     "swift_version": "4.1",
     "cocoapods_version": ">= 1.4.0",
@@ -36,17 +34,6 @@
     "subspecs" : [
       {
         "name": "Core",
-        "osx": {
-            "source_files": [
-                "macOS/AudioKit.framework/Versions/A/Headers/*.h"
-            ],
-            "public_header_files": [
-                "macOS/AudioKit.framework/Versions/A/Headers/*.h"
-            ],
-            "vendored_frameworks": [
-                "macOS/AudioKit.framework"
-            ]
-        },
         "ios": {
             "source_files": [
                 "iOS/AudioKit.framework/Headers/*.h"
@@ -57,33 +44,10 @@
             "vendored_frameworks": [
                 "iOS/AudioKit.framework"
             ]
-        },
-        "tvos": {
-            "source_files": [
-                "tvOS/AudioKit.framework/Headers/*.h"
-            ],
-            "public_header_files": [
-                "tvOS/AudioKit.framework/Headers/*.h"
-            ],
-            "vendored_frameworks": [
-                "tvOS/AudioKit.framework"
-            ]
         }
-
       },
       {
         "name": "UI",
-        "osx": {
-            "source_files": [
-		"macOS/AudioKitUI.framework/Versions/A/Headers/*.h"
-	    ],
-            "public_header_files": [
-		"macOS/AudioKitUI.framework/Versions/A/Headers/*.h"
-	    ],
-            "vendored_frameworks": [
-		"macOS/AudioKitUI.framework"
-	    ]
-        },
         "ios": {
             "source_files": [
 		"iOS/AudioKitUI.framework/Headers/*.h"
@@ -93,17 +57,6 @@
 	    ],
             "vendored_frameworks": [
 		"iOS/AudioKitUI.framework"
-	    ]
-        },
-        "tvos": {
-            "source_files": [
-		"tvOS/AudioKitUI.framework/Headers/*.h"
-	    ],
-            "public_header_files": [
-		"tvOS/AudioKitUI.framework/Headers/*.h"
-	    ],
-            "vendored_frameworks": [
-		"tvOS/AudioKitUI.framework"
 	    ]
         }
       }
