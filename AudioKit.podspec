@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
     spec.source                     = { :http => 'https://github.com/donuts-kris/AudioKit/raw/develop/AudioKit.framework.zip' }
     spec.framework                  = 'AVFoundation'
 
-    s.subspec 'Core' do |cs|
+    spec.subspec 'Core' do |cs|
         cs.ios.source_files         = 'iOS/AudioKit.framework/Headers/*.h'
         cs.ios.public_header_files  = 'iOS/AudioKit.framework/Headers/*.h'
         cs.ios.vendored_frameworks  = 'iOS/AudioKit.framework'
