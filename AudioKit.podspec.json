@@ -13,7 +13,7 @@
     "documentation_url": "http://audiokit.io/docs/",
     "static_framework": true,
     "source": {
-        "http": "https://github.com/donuts-kris/AudioKit/raw/develop/AudioKit.framework.zip"
+        "http": "dafuq"
     },
     "summary": "Open-source audio synthesis, processing, & analysis platform.",
     "platforms": {
