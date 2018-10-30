@@ -22,7 +22,7 @@
         "iOS/AudioKit.framework/Headers/*.h"
     ],
     "vendored_frameworks": [
-        "*.framework"
+        "AudioKit.framework.zip"
     ],
     "summary": "Open-source audio synthesis, processing, & analysis platform.",
     "platforms": {
