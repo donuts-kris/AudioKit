@@ -13,7 +13,7 @@
     "documentation_url": "http://audiokit.io/docs/",
     "static_framework": true,
     "source": {
-        "http": "dafuq"
+        "http": "https://github.com/donuts-kris/AudioKit/raw/develop/AudioKit.framework.zip"
     },
     "summary": "Open-source audio synthesis, processing, & analysis platform.",
     "platforms": {
@@ -31,13 +31,7 @@
 	"ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES": "YES",
         "LIBRARY_SEARCH_PATHS": "$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)"
     },
-    "source_files": [
-        "iOS/AudioKit.framework/Headers/*.h"
-    ],
-    "public_header_files": [
-        "iOS/AudioKit.framework/Headers/*.h"
-    ],
     "vendored_frameworks": [
-        "AudioKit.framework.zip"
+        "kkkAudioKit.framework.zip"
     ]
 }
