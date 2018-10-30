@@ -32,6 +32,6 @@
         "LIBRARY_SEARCH_PATHS": "$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)"
     },
     "vendored_frameworks": [
-        "kkkAudioKit.framework.zip"
+        "AudioKit.framework.zip"
     ]
 }
